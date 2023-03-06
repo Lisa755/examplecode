@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> ESA Accounting</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <div id="wrapper">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="adjust-nav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><i class="fa fa-square-o "></i>&nbsp;ESA Accounting</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Company Settings</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li class="text-center user-image-back">
+                        <img src="assets/img/find_user.png" class="img-responsive" />
+                     
+                    </li>
+
+
+                    <li>
+                        <a href="index.html"><i class="fa fa-desktop "></i>Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-edit "></i>Customers<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+
+
+                            <li>
+                                <a href="#">Add Customers</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Lists</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Transancions</a>
+                            </li>
+                            <li>
+                                <a href="#">Reports</a>
+                            </li>
+                            <li>
+                                <a href="#">Special</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-edit "></i>Suppliers<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Add Supplier</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Lists</a>
+                            </li>
+                            <li>
+                                <a href="#">Transanctions</a>
+                            </li>
+                            <li>
+                                <a href="#">Reports</a>
+                            </li>
+                             <li>
+                                <a href="#">Special</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-edit "></i>Items<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Add an Item</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Lists</a>
+                            </li>
+                            <li>
+                                <a href="#">Transanctions</a>
+                            </li>
+                            <li>
+                                <a href="#">Reports</a>
+                            </li>
+                             <li>
+                                <a href="#">Special</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-edit "></i>Banking<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+
+                                <a href="banking.html" 
+                                target="popup" 
+                                onclick="window.open('banking.html','popup','width=500,height=600', 'resizable=no'); return false;">
+                                Add A Bank or Credit Card
+                             </a>
+
+                            </li>
+
+
+                            <li>
+                                <!--<a href="#">Lists</a>-->
+                                 <a href="#"><i class="fa fa-edit "></i>Lists<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">List Of Banks And Credit Cards</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Bank And Credit Card Cetegories</a>
+                            </li>
+                            <li>
+                                <a href="#">Quick Entry Rules</a>
+                            </li>
+                            <li>
+                                <a href="#">Bank Statements And Maping Rules</a>
+                            </li>
+                             
+
+                        </ul>
+                    </li>
+
+
+
+                            </li>
+
+
+                            <li>
+                                <a href="#">Transanctions</a>
+                            </li>
+                            <li>
+                                <a href="#">Reports</a>
+                            </li>
+                             <li>
+                                <a href="#">Special</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <a href="#"><i class="fa fa-edit "></i>Accounts<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Add An Account</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Lists</a>
+                            </li>
+                            <li>
+                                <a href="#">Accounting Reporting Groups</a>
+                            </li>
+                            <li>
+                                <a href="#">Adjust Accounts Opening Balances</a>
+                            </li>
+                             <li>
+                                <a href="#">Special</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-edit "></i>Accountant's Area<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Send A note to my Accountant</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Process journal Entries</a>
+                            </li>
+                            <li>
+                                <a href="#">Recuring journal Entries</a>
+                            </li>
+                            <li>
+                                <a href="#">VAT</a>
+                            </li>
+                             <li>
+                                <a href="#">Reports</a>
+                            </li>
+                             <li>
+                                <a href="#">Trial Balance Export</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#"><i class="fa fa-edit "></i>Rerports<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Accounting Intelligence Reporting</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Customers</a>
+                            </li>
+                            <li>
+                                <a href="#">Suppliers</a>
+                            </li>
+                            <li>
+                                <a href="#">Items</a>
+                            </li>
+                             <li>
+                                <a href="#">Sales and purchases</a>
+                            </li>
+                             <li>
+                                <a href="#">Banks and Credit Cards</a>
+                            </li>
+                            <li>
+                                <a href="#">VAT</a>
+                            </li>
+                              <li>
+                                <a href="#">Accounts</a>
+                            </li>
+                              <li>
+                                <a href="#">Financial Statements</a>
+                            </li>
+                              <li>
+                                <a href="#">Asset Report</a>
+                            </li>
+                              <li>
+                                <a href="#">Budget Report</a>
+                            </li>
+                              <li>
+                                <a href="#">Other</a>
+                            </li>
+                              <li>
+                                <a href="#">Accountants Report</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+                    <li>
+                        <a href="#"><i class="fa fa-edit "></i>Prices<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Add Prices</a>
+                            </li>
+                            <li>
+                                <a href="#">Remove Prices</a>
+                            </li>
+                            <li>
+                                <a href="#">Update PRices</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+
+
+
+
+
+                    <li>
+                        <a href="#"><i class="fa fa-edit "></i> Users<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Create User</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Delete User</a>
+                            </li>
+                            <li>
+                                <a href="#">Update User</a>
+                            </li>
+                            
+
+                        </ul>
+                    
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Admin Dashboard</h2>
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <hr />
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <h5>Widget Box One</h5>
+                        <div class="panel panel-primary text-center no-boder bg-color-blue">
+                            <div class="panel-body">
+                                <i class="fa fa-bar-chart-o fa-5x"></i>
+                                <h3> </h3>
+                            </div>
+                            <div class="panel-footer back-footer-blue">
+                                Customers
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <h5>Widget Box Two</h5>
+                        <div class="alert alert-info text-center">
+                            <i class="fa fa-desktop fa-5x"></i>
+                            <h3>100$ </h3>
+                            Banking
+                        </div>
+                    </div>
+                  
+
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+
+
+</body>
+</html>
